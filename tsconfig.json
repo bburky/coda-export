@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "nodenext",
+        "target": "ESNext",
+        "noImplicitAny": true,
+        "moduleResolution": "nodenext",
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+        "lib": ["ESNext"],
+        "types": ["node"],
+        "skipLibCheck": true,
+        "useUnknownInCatchVariables": true,
+        "strictNullChecks": true,
+    },
+    "include": [
+        "*"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+}
